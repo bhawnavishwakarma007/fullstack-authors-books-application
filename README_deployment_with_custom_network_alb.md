@@ -7,7 +7,7 @@ It is deployed on **AWS using a custom VPC network, Application Load Balancer (A
 
 ---
 
-## 🏗️ Architecture Overview (3‑Tier)
+##  Architecture Overview (3‑Tier)
 
 **Presentation Tier**  
 - React (Vite) Frontend
@@ -25,7 +25,7 @@ It is deployed on **AWS using a custom VPC network, Application Load Balancer (A
 
 ---
 
-## 🌐 AWS Infrastructure (Manual Setup)
+##  AWS Infrastructure (Manual Setup)
 
 - **Custom VPC**
 - Public Subnets (Frontend + ALB)
@@ -42,7 +42,7 @@ It is deployed on **AWS using a custom VPC network, Application Load Balancer (A
 
 ---
 
-## 🔁 ALB Listener Rules
+##  ALB Listener Rules
 
 | Path | Forward To |
 |-----|-----------|
@@ -53,7 +53,7 @@ This enables frontend and backend to be accessed using **one ALB DNS**.
 
 ---
 
-## 📸 Application Screenshots
+##  Application Screenshots
 
 ### Dashboard
 ![Dashboard](./frontend/public/ss/dashboard.png)
@@ -66,7 +66,7 @@ This enables frontend and backend to be accessed using **one ALB DNS**.
 
 ---
 
-## 🚀 Frontend Setup (Presentation Tier)
+##  Frontend Setup (Presentation Tier)
 
 ### Connect to Frontend EC2 Instance
 
@@ -111,7 +111,7 @@ Access frontend via **ALB DNS**.
 
 ---
 
-## 🗄️ Database Setup (Data Tier – RDS)
+##  Database Setup (Data Tier – RDS)
 
 - Engine: **MySQL Community**
 - Port: **3306**
@@ -120,7 +120,7 @@ Access frontend via **ALB DNS**.
 
 ---
 
-## ⚙️ Backend Setup (Application Tier)
+##  Backend Setup (Application Tier)
 
 ### Connect to Backend EC2 Instance
 
@@ -181,7 +181,7 @@ curl http://localhost:3000/api
 
 ---
 
-## 🔐 Security Considerations
+##  Security Considerations
 
 - Security Groups used instead of open access
 - Backend not directly exposed (only via ALB)
@@ -189,7 +189,7 @@ curl http://localhost:3000/api
 
 ---
 
-## 📌 Git & Deployment Notes
+##  Git & Deployment Notes
 
 - `.gitignore` excludes:
   - `node_modules/`
@@ -199,11 +199,11 @@ curl http://localhost:3000/api
 
 ---
 
-## ✨ Conclusion
+##  Conclusion
 
 This project demonstrates **real‑world AWS deployment** using a **custom network, ALB, target groups, and RDS**, deployed **manually for strong fundamentals**.  
 Next step: **Infrastructure as Code using Terraform**.
 
 ---
 
-👩‍💻 **Author**: Bhawna Vishwakarma With guidance and inspiration from Veera Babu Sir, Naresh i Technologies.
+ **Author**: Bhawna Vishwakarma With guidance and inspiration from Veera Babu Sir, Naresh i Technologies.
