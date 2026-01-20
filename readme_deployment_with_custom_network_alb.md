@@ -167,7 +167,11 @@ mysql -h <rds-endpoint> -u <user> -p < db.sql
 
 ```bash
 npm install
+<<<<<<< HEAD
 pm2 start server.js --name "Bhawna"
+=======
+pm2 start server.js --name "veera"
+>>>>>>> afeff109265cf3b82a945c4ef80497b828472eef
 pm2 startup
 pm2 save
 ```
@@ -198,7 +202,6 @@ curl http://localhost:3000/api
 
 ---
 
-
 ## ✨ Conclusion
 
 This project demonstrates **real‑world AWS deployment** using a **custom network, ALB, target groups, and RDS**, deployed **manually for strong fundamentals**.  
@@ -207,4 +210,3 @@ Next step: **Infrastructure as Code using Terraform**.
 ---
 
 👩‍💻 **Author**: Bhawna Vishwakarma With guidance and inspiration from Veera Babu Sir, Naresh i Technologies.
-
