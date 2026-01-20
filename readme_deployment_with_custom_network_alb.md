@@ -167,12 +167,9 @@ mysql -h <rds-endpoint> -u <user> -p < db.sql
 
 ```bash
 npm install
-<<<<<<< HEAD
 pm2 start server.js --name "Bhawna"
-=======
-pm2 start server.js --name "veera"
->>>>>>> afeff109265cf3b82a945c4ef80497b828472eef
 pm2 startup
+sudo systemctl enable pm2-root
 pm2 save
 ```
 
