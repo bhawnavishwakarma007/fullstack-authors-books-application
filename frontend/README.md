@@ -59,6 +59,7 @@ sudo systemctl enable httpd
 
 ```bash
 git clone https://github.com/bhawnavishwakarma007/fullstack-authors-books-application.git
+cd fullstack-authors-books-application/frontend
 ```
 
 ---
